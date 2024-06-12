@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#8b1468, #000000);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(247, 244, 244, 0.1);
+}
+
+#timer {
+    font-size: 48px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 60px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px; 
+    justify-content: center;
+    border: 3px solid #8b1468;
+    align-items: center;
+    color: white;
+
+}
+
+.controls button, .intervals button {
+    margin: 5px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.controls button {
+    background: linear-gradient(#8b1468, #000000);
+    color: white;
+}
+
+.controls button:hover {
+    background: linear-gradient(#8b1468, #000000);
+}
+
+.intervals button {
+    background: linear-gradient(#8b1468, #000000);
+    /* background: #f0f0f0; */
+    color: rgb(255, 255, 255);
+}
+
+.intervals button.active {
+    background: #000102;
+    color: white;
+}
+
+.intervals button:hover {
+    background: #030000;
+}
+
+
